@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="DeathDrops:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DeathDrops_jar</output-path>
+    <root id="archive" name="DeathDrops.jar">
+      <element id="module-output" name="DeathDrops" />
+    </root>
+  </artifact>
+</component>

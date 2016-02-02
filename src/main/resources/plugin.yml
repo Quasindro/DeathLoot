@@ -1,0 +1,6 @@
+main: me.quasindro.deathdrops.DeathDrops
+
+name: DeathDrops
+version: 1.0
+author: Quasindro
+description: Manages player death drops per world.
