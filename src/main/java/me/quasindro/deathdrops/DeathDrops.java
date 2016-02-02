@@ -37,7 +37,6 @@ public class DeathDrops extends JavaPlugin {
             String worldName = world.getName();
             if (config.getConfigurationSection(worldName) == null) {
                 config.createSection(worldName);
-                System.out.println("creating " + worldName);
                 config.set(worldName + ".keep-inventory", false);
                 config.set(worldName + ".keep-levels", false);
                 Bukkit.getLogger().warning("Adding " + worldName + " to the config.");
