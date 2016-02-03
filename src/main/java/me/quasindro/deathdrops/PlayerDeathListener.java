@@ -15,9 +15,5 @@ public class PlayerDeathListener implements Listener {
         e.setKeepInventory(keepInventory);
         e.setKeepLevel(keepLevel);
         e.setDroppedExp(keepLevel ? 0 : e.getDroppedExp());
-
-        System.out.println(e.getKeepInventory());
-        System.out.println(e.getKeepLevel());
-        System.out.println(e.getDroppedExp());
     }
 }
