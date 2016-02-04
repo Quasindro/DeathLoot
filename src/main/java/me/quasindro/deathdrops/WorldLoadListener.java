@@ -18,7 +18,7 @@ public class WorldLoadListener implements Listener {
     }
 
     @EventHandler
-    public void onWorldLoad(WorldLoadEvent e) {
+    public void onDeathDropsWorldLoad(WorldLoadEvent e) {
         String worldName = e.getWorld().getName();
         if (config.getConfigurationSection(worldName) == null) {
             config.createSection(worldName);
